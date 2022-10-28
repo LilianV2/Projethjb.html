@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>test tableau</title>
+</head>
+<!--
+        ou <input type="submit" value="Envoyer" name="">
+        Séparer chaque input et label par une div
+        -->
+<body>
+    <form action="page action" method="post">
+        <div>
+            <input placeholder="Name" type="text" id="name" name="user_name" required>
+            <label for="mail">email</label>
+        </div>
+        <div>
+            <input placeholder="email" type="email" id="mail" name="user_mail">
+            <label for="mail">e-mail</label>
+        </div>
+        <div>
+            <input placeholder="password" type="password" id="password" name="user_password">
+            <button type="submit" name="user_submit">Envoyer</button>
+        </div>
+        <div>
+            <select id="sexe" name="mon-select">
+                <option value="0">Quel est votre sexe</option>
+                <option value="h">homme</option>
+                <option value="f">femme</option>
+            </select>
+        </div>
+        <div>
+            <input type="radio" name="sexe" value="homme">
+            <input type="text" name="sexe" value="femme">
+        </div>
+        <!--
+        <input type="url">
+        <input type="color">
+        <input type="date">
+        <input type="file">
+        <input type="hidden">
+        <input type="number">
+        <input type="tel">
+        -->
+    </form>
+</body>
+</html>
